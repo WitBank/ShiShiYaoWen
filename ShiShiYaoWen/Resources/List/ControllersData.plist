@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nameString</key>
+		<string>资讯精选</string>
+		<key>imageString</key>
+		<string>ZH_Information_Tabbar_</string>
+		<key>ClassName</key>
+		<string>ZHInformationViewController</string>
+	</dict>
+	<dict>
+		<key>nameString</key>
+		<string>深度专题</string>
+		<key>imageString</key>
+		<string>ZH_Special_Tabbar_</string>
+		<key>ClassName</key>
+		<string>ZHSpecialViewController</string>
+	</dict>
+	<dict>
+		<key>nameString</key>
+		<string>科普短片</string>
+		<key>imageString</key>
+		<string>ZH_Polular_Tabbar_</string>
+		<key>ClassName</key>
+		<string>ZHPolularViewController</string>
+	</dict>
+	<dict>
+		<key>nameString</key>
+		<string>健康索引</string>
+		<key>imageString</key>
+		<string>ZH_Healthy_Tabbar_</string>
+		<key>ClassName</key>
+		<string>HealthIndexViewController</string>
+	</dict>
+</array>
+</plist>

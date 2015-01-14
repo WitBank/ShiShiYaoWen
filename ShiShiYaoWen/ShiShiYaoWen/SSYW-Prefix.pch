@@ -1,0 +1,33 @@
+//
+//  SSYW-Prefix.pch
+//  ShiShiYaoWen
+//
+//  Created by HuXin on 14/12/5.
+//  Copyright (c) 2014年 Huxin. All rights reserved.
+//
+
+#ifndef ShiShiYaoWen_SSYW_Prefix_pch
+#define ShiShiYaoWen_SSYW_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ZHCustomControl.h"
+#import <AFNetworking.h>
+#import <GDataXMLNode.h>
+#import "ZHColorDef.h"
+#import "ZHCustomControl.h"
+#import "MTA.h"
+#import "MTAConfig.h"
+
+#define SCREENHEIGHT    ([UIScreen mainScreen].bounds.size.height)
+#define SCREENWIDTH     ([UIScreen mainScreen].bounds.size.width)
+#define WIDTHPROPORTION (SCREENWIDTH/320.f)
+
+#define SSYWHTTPHEAD @"http://ssyw.51yaoshi.com"
+
+
+//shareSDK注册的appID
+#define SHARESDKAPPID @"4b3e58c70f08"
+
+#endif

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C68m" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ZHHeathManage" representedClassName="ZHHeathManage" isAbstract="YES" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleImg" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHInformationCellManage" representedClassName="ZHInformationCellManage" isAbstract="YES" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="belittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentHtmlUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contenturl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleimg" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHInformationCollectionManage" representedClassName="ZHInformationCollectionManage" isAbstract="YES" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="belittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentHtmlUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contenturl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleimg" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHInformationSCVImageManage" representedClassName="ZHInformationSCVImageManage" isAbstract="YES" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="belittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentHtmlUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleImg" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHPraiseStepManage" representedClassName="ZHPraiseStepManage" isAbstract="YES" syncable="YES">
+        <attribute name="isPraise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHSpecialCellManage" representedClassName="ZHSpecialCellManage" isAbstract="YES" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="belittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentHtmlUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contenturl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleimg" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ZHTitleManage" representedClassName="ZHTitleManage" isAbstract="YES" syncable="YES">
+        <attribute name="titleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ZHInformationCellManage" positionX="-63" positionY="-18" width="128" height="238"/>
+        <element name="ZHInformationCollectionManage" positionX="-45" positionY="117" width="128" height="238"/>
+        <element name="ZHInformationSCVImageManage" positionX="-36" positionY="108" width="128" height="223"/>
+        <element name="ZHPraiseStepManage" positionX="-36" positionY="144" width="128" height="75"/>
+        <element name="ZHSpecialCellManage" positionX="-45" positionY="135" width="128" height="240"/>
+        <element name="ZHTitleManage" positionX="-54" positionY="72" width="128" height="75"/>
+        <element name="ZHHeathManage" positionX="-45" positionY="135" width="128" height="210"/>
+    </elements>
+</model>
