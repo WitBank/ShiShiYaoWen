@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>09C7EA0E-DC8B-4241-AF2E-ED0F2FE3DC3E</string>
+	<string>789C8A50-DC12-4E3A-8E12-FD5F98D5D963</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ShiShiYaoWen</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/WitBank/ShiShiYaoWen.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShiShiYaoWen/ShiShiYaoWen.xcworkspace</string>
+	<string>ShiShiYaoWen/ShiShiYaoWen.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D94CF07F867814D046BE8A172E6725F1CCD87B89</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/WitBank/ShiShiYaoWen.git</string>
